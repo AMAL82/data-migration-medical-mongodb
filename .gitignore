@@ -1,0 +1,59 @@
+# -----------------------------
+# Cache et fichiers compilés Python
+# -----------------------------
+__pycache__/       # dossiers contenant les fichiers compilés Python
+*.pyc              # fichiers compilés Python
+*.pyo              # fichiers optimisés Python
+*.pyd              # modules Python compilés pour Windows
+
+# -----------------------------
+# Environnements virtuels
+# -----------------------------
+.venv/             # environnement virtuel local
+env/
+venv/
+
+# -----------------------------
+# Jupyter
+# -----------------------------
+.ipynb_checkpoints/  # sauvegardes automatiques des notebooks
+
+# -----------------------------
+# Logs et bases de données locales
+# -----------------------------
+*.log              # fichiers logs
+*.sqlite           # bases SQLite locales
+*.db               # fichiers de base de données
+
+# -----------------------------
+# Fichiers générés / exports
+# -----------------------------
+data/*.csv         # CSV générés automatiquement par scripts
+data/*.xlsx        # Excel générés automatiquement
+# MAIS autoriser ces fichiers spécifiques
+!data/healthcare_dataset.csv
+!data/ready_healthcare_dataset.csv
+
+# -----------------------------
+# IDE et éditeurs
+# -----------------------------
+.vscode/           # paramètres VSCode
+.idea/             # paramètres PyCharm / IntelliJ
+
+# -----------------------------
+# Fichiers systèmes
+# -----------------------------
+.DS_Store          # macOS
+Thumbs.db          # Windows
+
+# -----------------------------
+# Fichiers temporaires
+# -----------------------------
+*.tmp              # fichiers temporaires
+*.swp              # fichiers swap (Vim / éditeurs)
+
+# -----------------------------
+# id & mdp 
+# -----------------------------
+.env
+
