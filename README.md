@@ -53,7 +53,7 @@ Le répertoire **`script/`** contient les fichiers suivants :
   - nombre total de documents,  
   - formatage de certains champs,  
   - détection d’erreurs ou anomalies.  
-* ➡️ Garantit la fiabilité des données migrées.
+* ➡️ Garantit la fiabilité des données migrées. 
 
 ---
 
